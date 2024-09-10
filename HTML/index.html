@@ -1,0 +1,25 @@
+<button type="button"onclick="alert('Hello world!')"><br><i>Click me!</i></button>
+
+<h1>The form element</h1>
+
+<form action="/action_page.php">
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit"><br><br>
+    <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+            <option value="lambo">Lamborghini</option>
+            <option value="bmw">BMW</option>
+            <option value="celta">Celta</option>
+        </select><br><br><br>
+            <p><label for="w3review">Review of W3Schools</label></p>
+            <textarea id="w3review" name="w3review" rows="4" cols="50">At W3Schools you will learn how to make a website.</textarea>
+            <br>
+            <input type="submit" value="Submit"></input>
+</form>
+
+<p>Click the "Submit" button and the form data will be sent to a page on the server called "action_page.php".</p>
